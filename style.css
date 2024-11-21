@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: "Playfair Display", serif;
+}
+
+header{
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+.chamada{
+    background: rgb(195, 0, 255, 1);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.segunda-section{
+    background: rgb(56, 5, 88);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+}
+
+.chamada-texto{
+    margin-right:5%;
+}
+
+.chamada-video{
+    border-width: 20px;
+    border-left: 30px;
+}
+
+.video{
+    background: rgb(155, 53, 219);
+    display: flex;
+    overflow: auto;
+    gap: 10px; 
+}
+
+img{
+    height: 200px;
+}
+
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+p{
+    font-size: 20px;
+}
